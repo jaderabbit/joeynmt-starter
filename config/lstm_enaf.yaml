@@ -1,4 +1,4 @@
-name: "enaf_transformer"
+name: "enaf_lstm"
 
 data:
     src: "en"
@@ -30,7 +30,7 @@ training:
     patience: 5
     decrease_factor: 0.5
     early_stopping_metric: "eval_metric"
-    epochs: 6
+    epochs: 1
     validation_freq: 1000
     logging_freq: 100
     eval_metric: "bleu"
